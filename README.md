@@ -73,12 +73,12 @@ Di questi dati servirà soltanto **name** e **description**, da mostrare sul con
     var img = '<div><img src="' + src + '"></div>';
 
     // SI 👌
-    var imgContainer = document.createElement('figure');
+    const imgContainer = document.createElement('figure');
     imgContainer.onclick = function() {
         // cose
     }
 
-    var img = document.createElement('img');
+    const img = document.createElement('img');
     img.src = "img.png"
     imgContainer.appendChild(img) // output: <div><img /></div>
     ```
