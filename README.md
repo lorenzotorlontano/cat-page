@@ -4,7 +4,9 @@ Sviluppare una pagina web che mostri una galleria di immagini.
 Le immagini visualizzate dovranno essere contenute in un contenitore non più grande di 200px (saranno quindi delle anteprime).
 Cliccando su una delle anteprime bisognerà mostrare la stessa immagine sul contenitore più grande (vedi wireframe sotto).
 
-Ovviamente le immagini saranno più di quelle riportate nel wireframe, quindi
+Ovviamente le immagini saranno più di quelle riportate nel wireframe, quindi trovate voi un modo per disporle.
+
+La prima immagine selezionata sarà la prima della lista di anteprime.
 
 ![Esempio](./sample.png)
 
