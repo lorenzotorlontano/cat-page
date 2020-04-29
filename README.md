@@ -10,7 +10,7 @@ Ovviamente le immagini saranno più di quelle riportate nel wireframe, quindi
 
 ## Requisiti
 
-Fare una chiamata http in `GET` a questo endpoint: `https://api.thecatapi.com/v1/breeds` aggiungendo questo questo header: `'x-api-key': '78548d1d-d031-4322-95c7-877bd83d7a10'`.
+Al caricamento della pagina fare una chiamata http in `GET` a questo endpoint: `https://api.thecatapi.com/v1/breeds` aggiungendo questo questo header: `'x-api-key': '78548d1d-d031-4322-95c7-877bd83d7a10'`.
 
 Se la chiamata è andata a buon fine riceverete un JSON simile a questo:
 
