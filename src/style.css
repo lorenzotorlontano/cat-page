@@ -1,0 +1,57 @@
+div#contImg {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow-y: auto; 
+    border:1px solid grey;
+}
+
+div#contImg img:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+div#contImg img {
+    width: 25%;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}  
+
+#viewImageFull,
+.closebtn{
+    display: none;
+}
+
+#viewImageFull{
+    width: 200px;
+    position: relative;
+}
+#viewImageFull img{
+    width: 100%;
+    background: #000;
+}
+
+#closebtn{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 30%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background: #00000094;
+    padding: 0px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.btn{
+    height: 50px;
+    width: 500px;
+    background-color: rgb(90, 36, 36);
+    color: white;
+    text-align: center;
+}
