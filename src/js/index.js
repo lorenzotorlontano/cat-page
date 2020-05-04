@@ -20,7 +20,10 @@ result.forEach(function(obj) {
   let img = document.createElement("img");  //creo img per ogni iterazione
   const urlstring = ''+obj.url;             //creo una variabile e ci assegno l'url dell'immagine iterata
   img.src = obj.url;                           //setto l'src dell'img creata con url 
-  img.setAttribute("onclick", "showImg(this)"); //setto l'onclick all'img 
+ // img.setAttribute("onclick", "showImg(this)"); //setto l'onclick all'img 
+ img.onclick = function() {
+  showImg(img);
+}
   img.setAttribute("urlAttr", urlstring);       //setto l'url dentro un attributo "urlAttr" così me lo riprendo al click dell'immaginina
   document.getElementById("contImg").appendChild(img); //appendo l'img creata nel contenitore principale con id contImg
 });
@@ -35,7 +38,10 @@ document.getElementById("viewImageFull").appendChild(img);    //appendo l'img cr
 
 let div = document.createElement('div');  //  creo il div che sarà il contenitore del tasto chiudi 
 div.textContent = 'X';                    //  scrivo la "X" nel div creato
-div.setAttribute("onclick", "closeViewImageFull()");  //setto l'onclick al div 
+//div.setAttribute("onclick", "closeViewImageFull()");  //setto l'onclick al div 
+div.onclick = function() {
+  closeViewImageFull();
+}
 div.setAttribute("id", "closebtn");       //setto l'id al div 
 document.getElementById("viewImageFull").appendChild(div); //appendo il div creato nel contenitore viewImageFull (quello grande)
 
