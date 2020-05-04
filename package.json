@@ -8,6 +8,7 @@
   },
   "keywords": [],
   "author": "",
+  "browserslist": [     "last 1 Chrome versions"   ],
   "license": "ISC",
   "devDependencies": {
     "parcel": "^1.12.4"

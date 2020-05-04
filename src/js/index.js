@@ -1,3 +1,5 @@
+
+getImages();
 async function getImages(){
   let response = await fetch('https://api.thecatapi.com/v1/images/search?limit=10', {
       method: 'GET',
@@ -26,7 +28,6 @@ result.forEach(function(obj) {
 
 //Funzione che parte quando clicco una delle immaginine
 function showImg(element){
-
 const imgURL = element.getAttribute("urlAttr"); // mi prendo l'url dall'attributo 
 let img = document.createElement("img");        // creo un img 
 img.src =  imgURL;                               // assegno all'immagine creata l'src con l'url che stava nell'attributo urlAttr
